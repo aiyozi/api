@@ -12,6 +12,8 @@ class UserController extends Controller
         $res=session("res");
         return view("user.index",['res'=>$res]);
     }
-
+	public function lan(){
+		echo "我爱吃大米";
+	}
 
 }
