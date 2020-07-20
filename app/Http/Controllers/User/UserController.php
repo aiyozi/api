@@ -15,5 +15,7 @@ class UserController extends Controller
 	public function lan(){
 		echo "我爱吃大米";
 	}
-
+	public function liu(){
+		echo "万里海疆";
+	}
 }
